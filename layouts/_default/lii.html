@@ -1,0 +1,8 @@
+<div class="hvr-wobble-vertical  cards card-cut">
+    <a href="{{ .RelPermalink }}" class="">
+        <div class="whymigrate">
+            {{ if .Params.image }}<img class="card-img" style="width: 86px; height:56px; border-radius: 10px;" loading="lazy" src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+            <p maxlength="30" class="whymigrate-span text-white titlecleared">{{ .Title }}</p>
+        </div>
+    </a>
+</div>

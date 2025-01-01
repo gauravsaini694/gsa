@@ -1,0 +1,28 @@
+{{ define "main" }}
+<section class="hero-section">
+    <section class="blog-showcase">
+        <img class="imges" src="/images/main-banner.png" alt="Picture">
+        <div class="overlay">
+            <h1>BLOGS</h1>
+            <div>
+                <img src="/images/Rectangle.png" alt="">
+            </div>
+        </div>
+    </section>
+</section>
+<!-- Hero End -->
+<div class="container mt-5 mb-5 " style="margin-top: 40px;">
+    <div class="row" id="showresults">
+        {{ range (.Paginator 1000).Pages.ByPublishDate.Reverse }}
+        <div class="col-lg-4 col-md-6 col-12 phone-fast mt-4 filter {{range .Params.categories}}{{.}} {{end}}">
+            <div class="whychoose-card ">
+                {{ .Render "li"}}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="clearfix"></div>
+
+{{end}}

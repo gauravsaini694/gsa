@@ -1,0 +1,22 @@
+<a href="{{ .RelPermalink }}">
+    <div class="blog-card">
+        {{ if .Params.image }}<img class="card-img" style="height: 250px;" loading="lazy" src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+        <div class="blog-card-img-overlay">
+            <p class="btn blog-date btn-sm">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+        </div>
+        <div class="blog-card-body">
+            <small class="text-authors cat">
+                <img src="/images/authors.png" alt="">
+                By Admin
+            </small>
+            <h5 maxlength="50" class="post-title my-2 titleclear">{{ .Title }}</h5>
+            <p class="descriptionclear" maxlength="100">
+                {{ .Description }}
+            </p>
+            <div class="card-footer">
+                <a class="blog-Read-More" href="{{ .RelPermalink }}">Read More...</a>
+            </div>
+        </div>
+    </div>
+</a>
+<!-- End post list item -->
