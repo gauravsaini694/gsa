@@ -18,3 +18,28 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 <script src="/js/google-map.js"></script>
 <script src="/js/main.js"></script>
+
+
+<script>
+    $(document).ready(function() {
+
+        $('.titleclear').each(function(f) {
+
+            var newstr = $(this).text().substring(0, 45) + "...";
+            $(this).text(newstr);
+
+        });
+    })
+</script>
+
+<script>
+    $(document).ready(function() {
+
+        $('.descriptionclear').each(function(f) {
+
+            var newstr = $(this).text().substring(0, 100) + "...";
+            $(this).text(newstr);
+
+        });
+    })
+</script>
