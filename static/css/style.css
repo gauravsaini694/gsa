@@ -439,25 +439,25 @@ h6,
 
 .display-1 {
     font-size: 6rem;
-    font-weight: 300;
+    font-weight: 700;
     line-height: 1.2;
 }
 
 .display-2 {
     font-size: 5.5rem;
-    font-weight: 300;
+    font-weight: 700;
     line-height: 1.2;
 }
 
 .display-3 {
     font-size: 4.5rem;
-    font-weight: 300;
+    font-weight: 700;
     line-height: 1.2;
 }
 
 .display-4 {
     font-size: 3.5rem;
-    font-weight: 300;
+    font-weight: 700;
     line-height: 1.2;
 }
 
@@ -9788,12 +9788,12 @@ h5,
 }
 
 .ftco-navbar-light {
-    background: transparent !important;
+    background: #fff !important;
     position: absolute;
     left: 0;
     right: 0;
     z-index: 3;
-    top: 10px;
+    top: 0px;
 }
 
 @media (max-width: 991.98px) {
@@ -9820,7 +9820,7 @@ h5,
     padding-bottom: .9rem;
     padding-left: 20px;
     padding-right: 20px;
-    color: rgba(255, 255, 255, 0.8);
+    color: #000 !important;
     font-weight: 400;
     opacity: 1 !important;
 }
@@ -12442,4 +12442,12 @@ textarea.form-control {
         stroke-dasharray: 89, 200;
         stroke-dashoffset: -136px;
     }
+}
+
+.Area-Mission {
+    height: 600px;
+}
+
+.Collaborations-Support-img {
+    width: 150px !important;
 }
