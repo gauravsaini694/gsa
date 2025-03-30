@@ -1,39 +1,53 @@
 {{ define "main" }}
-<div class="hero-wrap" style="background-image: url('/images/gsa19.jpg');" data-stellar-background-ratio="0.5">
-    <div class="overlay"></div>
-    <div class="container">
-        <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
-            <div class="col-md-9 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
-                <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Tobacco Free Generation</h1>
+
+<div class="bg-about">
+    <div class="py-5">
+        <div class="container py-5">
+            <div class="row justify-content-center pb-5">
+                <div class="col-xl-8 col-lg-8 col-md-9 col-12">
+                    <div class="text-center text-white" data-aos="fade-up" data-aos-duration="1500">
+                        <h1 class="fw-bold display-1">Tobacco Free Generation</h1>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-<section class="ftco-section">
+
+<div class="py-5">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12 ">
-                <p>The Tobacco-Free Generation (TFG) proposal advocates a strong policy inhibiting the sale and supply of tobacco to individuals born after a certain year. No one born in or after a certain date, like the year 2000, can ever be sold tobacco
-                    products including cigarettes.</p>
-                <br>
-                <p>Today TFG is referred to an amalgamation of various concepts and theories, like compulsory vendor licensing, constraining emerging trends like hookahs and e cigarettes in youth, etc which all together lead to establishment of a generation
-                    that has never and will never in future use tobaccoGeneration Saviour Association, (GSA) with the support of The Union, South East Asia consultations and discussions for discussing about TFG nad how it can be implemented.
+        <div class="row align-items-center g-md-5 g-5 mb-5 bg-white rounded-5 shadow p-5 provide">
+            <div class="col-lg-12 col-12" data-aos="fade-right" data-aos-duration="1000">
+                <p class="lead">
+                    The Tobacco-Free Generation (TFG) proposal advocates a strong policy inhibiting the sale and supply of tobacco to individuals born after a certain year. No one born in or after a certain date, like the year 2000, can ever be sold tobacco products including
+                    cigarettes.
                 </p>
+                <p class="lead">Today TFG is referred to an amalgamation of various concepts and theories, like compulsory vendor licensing, constraining emerging trends like hookahs and e cigarettes in youth, etc which all together lead to establishment of a generation
+                    that has never and will never in future use tobaccoGeneration Saviour Association, (GSA) with the support of The Union, South East Asia consultations and discussions for discussing about TFG nad how it can be implemented.</p>
             </div>
-            <div class="col-md-4 d-flex ftco-animate">
-                <img src="/images/tobacco-free-generation.png" alt="">
+            <div class="col-lg-12 col-12">
+                <div class="row">
+                    <div class="col-md-4 d-flex ftco-animate">
+                        <img src="/img/tobacco-free-generation.png" alt="non-profit" class="img-fluid rounded-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    </div>
+                    <div class="col-md-4 d-flex ftco-animate">
+                        <img src="/img/tobacco-free-generation2.png" alt="non-profit" class="img-fluid rounded-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    </div>
+                    <div class="col-md-4 d-flex ftco-animate">
+                        <img src="/img/tobacco-free-generation3.png" alt="non-profit" class="img-fluid rounded-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4 d-flex ftco-animate">
-                <img src="/images/tobacco-free-generation2.png" alt="">
-            </div>
-            <div class="col-md-4 d-flex ftco-animate">
-                <img src="/images/tobacco-free-generation3.png" alt="">
-            </div>
-
         </div>
-
     </div>
-</section>
+</div>
+
+<div>
+    {{- partial "Awards-and-honours.html" . -}}
+</div>
+<div>
+    {{- partial "Collaborations-and-Support.html" . -}}
+</div>
 
 {{ end }}
