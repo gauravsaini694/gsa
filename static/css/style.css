@@ -256,3 +256,9 @@ footer .footer-top .social-icon:hover {
 .tobacco-control-p {
     font-size: 20px;
 }
+
+@media screen and (max-width:767px) {
+    .phone-logo {
+        width: 200px;
+    }
+}
