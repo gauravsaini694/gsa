@@ -82,8 +82,8 @@ a:hover {
 /* Index */
 
 .bg-homepage {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner.jpeg);
-    background-position: top;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-baner.png);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -120,7 +120,7 @@ a:hover {
 }
 
 .bg-volunteer {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-volunteer.jpg);
+    background-image: linear-gradient(rgb(0 0 0 / 0%), rgb(0 0 0 / 39%)), url(../img/Awards.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -130,10 +130,15 @@ a:hover {
 /* About */
 
 .bg-about {
+    height: 85vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-about.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .work-img {
@@ -144,10 +149,15 @@ a:hover {
 /* Volunteer */
 
 .bg-volunteer-page {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-volunteer-page.jpg);
-    background-position: top;
+    height: 85vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Team-Members.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 
@@ -266,4 +276,9 @@ footer .footer-top .social-icon:hover {
     .phone-logo {
         width: 200px;
     }
+}
+
+#Initiatives img {
+    width: 100%;
+    height: 300px;
 }
