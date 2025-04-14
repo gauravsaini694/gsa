@@ -394,3 +394,7 @@ a {
         transform: none;
     }
 }
+
+img {
+    max-width: 100%;
+}
