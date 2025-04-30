@@ -78,6 +78,10 @@ a:hover {
     color: #ffc107;
 }
 
+p {
+    font-size: 18px;
+}
+
 
 /* Index */
 
@@ -116,14 +120,34 @@ a:hover {
     inset: 0;
     z-index: 0;
     pointer-events: none;
-    background-image: linear-gradient( 250deg, rgba(59, 90, 60, 0) 45%, var(--e-global-color-secondary, #3b5a3c) 45%);
+    background-image: linear-gradient( 316deg, rgba(59, 90, 60, 0) 45%, var(--e-global-color-secondary, #3b5a3c) 45%);
+    opacity: 1;
+    left: 0;
+    width: 50%;
+}
+
+.card-container-Gallery {
+    background-color: #fff0;
+}
+
+.card-container-Gallery::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    background-image: linear-gradient(316deg, rgba(59, 90, 60, 0) 45%, var(--e-global-color-secondary, #3b5a3c) 45%);
     opacity: 1;
     left: 0;
     width: 50%;
 }
 
 .bg-secondary-subtle {
-    background-color: #e9ffd1 !important;
+    background-image: linear-gradient(rgba(233, 255, 209, 0.85), rgba(233, 255, 209, 0.85)), url(../img/gsa-doodle.png);
+}
+
+.bg-secondary-subtle p {
+    font-size: 20px !important;
 }
 
 #grm img {
@@ -132,7 +156,7 @@ a:hover {
 }
 
 .school-video {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/video_banner.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-volunteer-page.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
