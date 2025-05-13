@@ -354,3 +354,9 @@ footer .footer-top .social-icon:hover {
     width: 100%;
     height: 300px;
 }
+
+@media (min-width: 1200px) {
+    .display-1 {
+        font-size: 60px !important;
+    }
+}
