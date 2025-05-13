@@ -1,5 +1,6 @@
 {{ define "main" }}
-<div class="bg-about">
+
+<div class="bg-about" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/grm/National-Girl-Child-Day/3.jpg');">
     <div class="py-5">
         <div class="container py-5">
             <div class="row justify-content-center pb-5">
@@ -12,35 +13,39 @@
         </div>
     </div>
 </div>
-<div class="py-5">
-    <div class="container">
-        <div class="row align-items-center g-md-5 g-5 my-4 bg-secondary-subtle rounded-5 p-5 provide">
-            <div class="col-lg-12 col-12 mt-0" data-aos="fade-right" data-aos-duration="1000">
-                <p class="lead">Girls Rise observed National Girl Child Day on January 24, 2020 and marked this day by honouring women who have excelled in various fields like sports, education, politics, social work, business, community service and others! </p>
-                <p class="lead">The girls of our country have talent and knowledge in abundance and we would like to take this initiative to honour them. women were honoured for their contribution to society by Ms Mia Yen, Consulate General of Canada in Chandigarh, India,
-                    who not only felicitated the talented women but also praised them for their will power, hard work and resolve to never give up.
-                </p>
+<div>
+    <div class="p-2 card-container">
+        <div class="row align-items-center g-0 rounded-5 overflow-hidden card-container-section bg-secondary-subtle">
+            <div class="col-lg-6 col-12 z-1">
+                <div class="pe-lg-5 p-md-5 p-3">
+                    <div class="row">
+                        <div class="col-md-6 d-flex ftco-animate">
+                            <img src="/img/grm/National-Girl-Child-Day/1.jpg" alt="non-profit" class="img-fluid rounded-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                        </div>
+                        <div class="col-md-6 d-flex ftco-animate">
+                            <img src="/img/grm/National-Girl-Child-Day/2.jpg" alt="non-profit" class="img-fluid rounded-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-12 col-12">
-                <div class="row">
-                    <div class="col-md-4 d-flex ftco-animate">
-                        <img src="/img/grm/National-Girl-Child-Day/1.jpg" alt="non-profit" class="img-fluid rounded-4" data-aos="zoom-in-up" data-aos-duration="1000">
-                    </div>
-                    <div class="col-md-4 d-flex ftco-animate">
-                        <img src="/img/grm/National-Girl-Child-Day/2.jpg" alt="non-profit" class="img-fluid rounded-4" data-aos="zoom-in-up" data-aos-duration="1000">
-                    </div>
-                    <div class="col-md-4 d-flex ftco-animate">
-                        <img src="/img/grm/National-Girl-Child-Day/3.jpg" alt="non-profit" class="img-fluid rounded-4" data-aos="zoom-in-up" data-aos-duration="1000">
-                    </div>
+            <div class="col-lg-6 col-12 z-1 d-flex ftco-animate">
+                <div class="pe-lg-5 p-md-5 p-3" data-aos="fade-left" data-aos-duration="1000">
+                    <h1 class="fw-bold display-4">National Girl Child Day - Honouring Women</h1>
+                    <p class="lead">Girls Rise observed National Girl Child Day on January 24, 2020 and marked this day by honouring women who have excelled in various fields like sports, education, politics, social work, business, community service and others! </p>
+                    <p class="lead">The girls of our country have talent and knowledge in abundance and we would like to take this initiative to honour them. women were honoured for their contribution to society by Ms Mia Yen, Consulate General of Canada in Chandigarh,
+                        India, who not only felicitated the talented women but also praised them for their will power, hard work and resolve to never give up.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 <div>
     <!-- {{- partial "Awards-and-honours.html" . -}} -->
 </div>
 <div>
     {{- partial "Collaborations-and-Support.html" . -}}
 </div>
+
 {{ end }}
