@@ -156,11 +156,11 @@ p {
 }
 
 .school-video {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-volunteer-page.jpg);
-    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/gen-next/training-of-trainers.JPG);
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 750px;
+    height: 800px;
 }
 
 
