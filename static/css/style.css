@@ -200,7 +200,7 @@ p {
 
 .bg-about {
     height: 85vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-about.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/about-gsa.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

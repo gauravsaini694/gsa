@@ -1,3 +1,6 @@
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
 <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 <script src="/vender/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="/vender/jquery/jquery-3.6.4.min.js"></script>
@@ -27,4 +30,58 @@
 
         });
     })
+</script>
+
+
+<script>
+    $(function() {
+        $("#BookAppointment").on("submit", function(event) {
+            event.preventDefault();
+
+            var name = $("#name").val().trim();
+            var email = $("#email").val().trim();
+            var phoneNumber = $("#phoneNumber").val().trim();
+            var message = $("#message").val().trim();
+
+            var data = {
+                companyId: "68232baa772e8c971627a46c",
+                formId: "68232baa772e8c971627a472",
+                locationId: "68232baa772e8c971627a46e",
+                source: "Viithiisys",
+                fields: [{
+                    key: "name",
+                    value: name
+                }, {
+                    key: "email",
+                    value: email
+                }, {
+                    key: "phoneNumber",
+                    value: phoneNumber
+                }, {
+                    key: "message",
+                    value: message
+                }]
+            };
+
+            var BookAppointment = JSON.stringify(data);
+            $.ajax({
+                url: "https://crm-api.leadhooper.com/api/lead",
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                type: "post",
+                data: BookAppointment,
+                success: function(d) {
+                    $("#BookAppointment")[0].reset();
+                    toastr.success(d.message);
+                    window.location = "/";
+
+                },
+                error: function(xhr, status, error) {
+                    var errorMessage = xhr.responseJSON ? xhr.responseJSON.message : 'Failed to submit form';
+                    toastr.error(errorMessage);
+                }
+            });
+        });
+    });
 </script>
