@@ -229,6 +229,18 @@ p {
     text-align: center;
 }
 
+.bg-volunteer-page2 {
+    height: 85vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/photo/102.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 
 /* Contact */
 
@@ -347,6 +359,35 @@ footer .footer-top .social-icon:hover {
     }
     .logo-text {
         font-size: 10px;
+    }
+    .bg-volunteer-page {
+        height: 50vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Team-Members.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .bg-volunteer-page2 {
+        height: 50vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/photo/102.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .gallery {
+        column-count: 4;
+        --webkit-column-count: 4;
+        --moz-column-count: 4;
+        gap: 1rem;
+        padding: 1rem !important;
     }
 }
 

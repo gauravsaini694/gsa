@@ -5,7 +5,7 @@
             <div class="row justify-content-center pb-5">
                 <div class="col-12">
                     <div class="text-center text-white" data-aos="fade-up" data-aos-duration="1200">
-                        <h1 class="fw-bold display-1">Media</h1>
+                        <h1 class="fw-bold display-1">Gallery</h1>
                     </div>
                 </div>
             </div>
@@ -13,60 +13,53 @@
     </div>
 </div>
 
-<div class="container-fluid pb-5 mt-5" id="clientscroll">
-    <div class="container">
-        <div class="row row-cols-xl-3 row-cols-lg-3 row-cols-md-3 row-cols-2 g-4">
-            {{ range .Site.Data.photo.items }}
-            <div class="col">
-                <div class="card text-bg-dark border-0 rounded-4 overflow-hidden transition-3d-hover mb-4">
-                    <img src="{{ .image | absURL }}" class="card-img rounded-0" alt="{{ .brand }}">
-                </div>
-            </div>
-            {{ end }}
-        </div>
+<section class="gallery">
+    {{ range .Site.Data.photo.items }}
+    <div class="image">
+        <img src="{{ .image | absURL }}" class="card-img rounded-0" alt="{{ .brand }}">
     </div>
-</div>
+    {{ end }}
+</section>
 
-<!-- <div class="container py-5">
-    <div class="py-5">
-        <div class="row row-cols-xl-3 row-cols-lg-3 row-cols-md-3 row-cols-2 g-4">
-            <div class="col-lg-4">
-                <div class="card text-bg-dark border-0 rounded-4 overflow-hidden transition-3d-hover mb-4 portfolio-osahan-w" data-aos="zoom-in" data-aos-duration="1000">
-                    <img src="../img/pages/portfolio/portfolio-h/1.jpeg" class="card-img rounded-0" alt="projects">
-                    <div class="card-img-overlay d-flex align-items-end p-3">
-                        <div class="bg-black bg-opacity-75 rounded-4 px-4 py-3">
-                            <h5 class="card-title fw-bold mb-1">Lorem ipsum dolor amet</h5>
-                            <small class="mb-0 text-white-50"><i class="ri-link me-2"></i> Web / Multipage Design</small>
-                        </div>
-                    </div>
-                    <a href="single-project.html" class="stretched-link"></a>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card text-bg-dark border-0 rounded-4 overflow-hidden transition-3d-hover mb-4 portfolio-osahan-h" data-aos="zoom-in" data-aos-duration="1000">
-                    <img src="../img/pages/portfolio/portfolio-h/2.jpeg" class="card-img rounded-0" alt="projects">
-                    <div class="card-img-overlay d-flex align-items-end p-3">
-                        <div class="bg-black bg-opacity-75 rounded-4 px-4 py-3">
-                            <h5 class="card-title fw-bold mb-1">Vehicula ipsum arcu cursus</h5>
-                            <small class="mb-0 text-white-50"><i class="ri-link me-2"></i> Web / Multipage Design</small>
-                        </div>
-                    </div>
-                    <a href="single-project.html" class="stretched-link"></a>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card text-bg-dark border-0 rounded-4 overflow-hidden transition-3d-hover mb-4 portfolio-osahan-w" data-aos="zoom-in" data-aos-duration="1000">
-                    <img src="../img/pages/portfolio/portfolio-h/3.jpeg" class="card-img rounded-0" alt="projects">
-                    <div class="card-img-overlay d-flex align-items-end p-3">
-                        <div class="bg-black bg-opacity-75 rounded-4 px-4 py-3">
-                            <h5 class="card-title fw-bold mb-1">Placerat Vestibulum Lectus</h5>
-                            <small class="mb-0 text-white-50"><i class="ri-link me-2"></i> Web / Multipage Design</small>
-                        </div>
-                    </div>
-                    <a href="single-project.html" class="stretched-link"></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
+<style>
+    .gallery {
+        column-count: 4;
+        --webkit-column-count: 4;
+        --moz-column-count: 4;
+        gap: 1rem;
+        padding: 4rem;
+    }
+    
+    .image img {
+        height: auto;
+        width: 100%;
+    }
+    /* Responsive-ness for different screen-sizes */
+    
+    @media screen and (max-width: 810px) {
+        .gallery {
+            column-count: 3;
+            --webkit-column-count: 3;
+            --moz-column-count: 3;
+        }
+    }
+    
+    @media screen and (max-width: 500px) {
+        .gallery {
+            column-count: 2;
+            --webkit-column-count: 2;
+            --moz-column-count: 2;
+        }
+    }
+    
+    @media screen and (max-width: 400px) {
+        .gallery {
+            column-count: 1;
+            --webkit-column-count: 1;
+            --moz-column-count: 1;
+        }
+    }
+</style>
+
+
 {{ end }}
