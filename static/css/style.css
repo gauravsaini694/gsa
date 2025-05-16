@@ -156,7 +156,7 @@ p {
 }
 
 .school-video {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/gen-next/training-of-trainers.JPG);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bgHome.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
