@@ -2,7 +2,7 @@
 title: "Tobacco-free Generation Study"
 description : "Tobacco-free Generation Study" 
 draft: false
-type: "tobacco-free-generation-study"
+type: "tobacco-free-generation"
 ---
 
 ### Our products

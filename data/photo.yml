@@ -10,8 +10,6 @@ items:
     - brand: 
       image: /img/photo/6.jpg
     - brand: 
-      image: /img/photo/7.jpg
-    - brand: 
       image: /img/photo/8.jpg
     - brand: 
       image: /img/photo/9.jpg
@@ -26,33 +24,17 @@ items:
     - brand: 
       image: /img/photo/14.jpg
     - brand: 
-      image: /img/photo/15.jpg
-    - brand: 
       image: /img/photo/16.jpg
-    - brand: 
-      image: /img/photo/17.jpg
     - brand: 
       image: /img/photo/18.jpg
     - brand: 
       image: /img/photo/19.jpg
     - brand: 
-      image: /img/photo/20.jpg
-    - brand: 
-      image: /img/photo/21.jpg
-    - brand: 
       image: /img/photo/22.jpg
-    - brand: 
-      image: /img/photo/23.jpg
     - brand: 
       image: /img/photo/24.jpg
     - brand: 
-      image: /img/photo/25.jpg
-    - brand: 
-      image: /img/photo/26.jpg
-    - brand: 
       image: /img/photo/27.jpg
-    - brand: 
-      image: /img/photo/28.jpg
     - brand: 
       image: /img/photo/29.jpg
     - brand: 
@@ -68,8 +50,6 @@ items:
     - brand: 
       image: /img/photo/35.jpg
     - brand: 
-      image: /img/photo/36.jpg
-    - brand: 
       image: /img/photo/37.jpg
     - brand: 
       image: /img/photo/38.jpg
@@ -78,33 +58,17 @@ items:
     - brand: 
       image: /img/photo/40.jpg
     - brand: 
-      image: /img/photo/41.jpg
-    - brand: 
-      image: /img/photo/42.jpg
-    - brand: 
       image: /img/photo/43.jpg
     - brand: 
       image: /img/photo/44.jpg
     - brand: 
-      image: /img/photo/45.jpg
-    - brand: 
-      image: /img/photo/46.jpg
-    - brand: 
       image: /img/photo/47.jpg
-    - brand: 
-      image: /img/photo/48.jpg
     - brand: 
       image: /img/photo/49.jpg
     - brand: 
       image: /img/photo/50.jpg
     - brand: 
-      image: /img/photo/51.jpg
-    - brand: 
       image: /img/photo/52.jpg
-    - brand: 
-      image: /img/photo/53.jpg
-    - brand: 
-      image: /img/photo/54.jpg
     - brand: 
       image: /img/photo/55.jpg
     - brand: 
@@ -112,45 +76,19 @@ items:
     - brand: 
       image: /img/photo/57.jpg
     - brand: 
-      image: /img/photo/58.jpg
-    - brand: 
       image: /img/photo/59.jpg
     - brand: 
       image: /img/photo/60.jpg
     - brand: 
       image: /img/photo/61.jpg
     - brand: 
-      image: /img/photo/62.jpg
-    - brand: 
-      image: /img/photo/63.jpg
-    - brand: 
-      image: /img/photo/64.jpg
-    - brand: 
-      image: /img/photo/65.jpg
-    - brand: 
-      image: /img/photo/66.jpg
-    - brand: 
-      image: /img/photo/67.jpg
-    - brand: 
-      image: /img/photo/68.jpg
-    - brand: 
       image: /img/photo/69.jpg
     - brand: 
       image: /img/photo/70.jpg
     - brand: 
-      image: /img/photo/71.jpg
-    - brand: 
-      image: /img/photo/72.jpg
-    - brand: 
       image: /img/photo/73.jpg
     - brand: 
-      image: /img/photo/74.jpg
-    - brand: 
       image: /img/photo/75.jpg
-    - brand: 
-      image: /img/photo/76.jpg
-    - brand: 
-      image: /img/photo/77.jpg
     - brand: 
       image: /img/photo/78.jpg
     - brand: 
@@ -174,19 +112,11 @@ items:
     - brand: 
       image: /img/photo/88.jpg
     - brand: 
-      image: /img/photo/89.jpg
-    - brand: 
-      image: /img/photo/90.jpg
-    - brand: 
       image: /img/photo/91.jpg
-    - brand: 
-      image: /img/photo/92.jpg
     - brand: 
       image: /img/photo/93.png
     - brand: 
       image: /img/photo/94.jpg
-    - brand: 
-      image: /img/photo/95.jpg
     - brand: 
       image: /img/photo/96.jpg
     - brand: 
@@ -199,6 +129,4 @@ items:
       image: /img/photo/100.jpg
     - brand: 
       image: /img/photo/101.png
-    - brand: 
-      image: /img/photo/102.jpg
     
